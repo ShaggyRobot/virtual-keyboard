@@ -19,7 +19,7 @@ module.exports = {
   },
 
   plugins: [
-    ...(isProduction ? [new CleanWebpackPlugin()] : []),
+    // ...(isProduction ? [new CleanWebpackPlugin()] : []),
     new HtmlWebpackPlugin({
       template: 'src/index.html',
       minify: true,

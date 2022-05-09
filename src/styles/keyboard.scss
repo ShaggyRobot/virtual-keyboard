@@ -1,0 +1,90 @@
+// @use "../styles";
+
+.keyboard {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 16px;
+  background-color: lightgray;
+  border-radius: 8px;
+  box-shadow: inset darkgrey 2px 4px 9px 1px;
+
+  &__key {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    color: darkslategrey;
+    font-weight: 900;
+    font-size: large;
+    vertical-align: top;
+    background-color: lightgray;
+    border-radius: 4px;
+    box-shadow: gray 0 2px 9px 1px;
+    cursor: pointer;
+    transition: 0.1s linear;
+    user-select: none;
+
+    &:hover {
+      background-color: #7f807e77;
+    }
+
+    &.pressed {
+      background-color: #80808077;
+      box-shadow: grey 0 2px 2px 0;
+      transform: scale(0.99);
+    }
+
+    &.indicate {
+      &.keyboard__key--indicated::after {
+        position: absolute;
+        top: 4px;
+        right: 4px;
+        width: 6px;
+        height: 6px;
+        background-color: #08ff00;
+        border-radius: 50%;
+        content: "";
+        box-shadow: #08ff009e 0 0 12px 5px;
+      }
+    }
+
+    &--dark {
+      color: lightgrey;
+      font-weight: 400;
+      font-size: medium;
+      background-color: #575757;
+
+      &:hover {
+        background-color: #46533abd;
+      }
+
+      &.pressed {
+        background-color: #46533abd;
+        box-shadow: grey 0 2px 2px 0;
+        transform: scale(0.99);
+      }
+    }
+
+    &--wide {
+      min-width: 95px;
+    }
+
+    &--extra-wide {
+      width: 350px;
+    }
+  }
+}
+
+.keyboard__key--indicated::after {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 6px;
+  height: 6px;
+  background-color: #185c16;
+  border-radius: 50%;
+  content: "";
+}

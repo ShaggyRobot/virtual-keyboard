@@ -7,7 +7,6 @@ export function getLang() {
   if (lsLang) {
     return lsLang;
   }
-  console.log('No "lang: " field found in local storage. Setting lang: "en".');
   setLang('en');
   return 'en';
 }

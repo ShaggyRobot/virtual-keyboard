@@ -4,7 +4,7 @@ export default class BaseComponent {
     classes = ['base-component'],
     content = '',
     parentNode = null,
-    attributes = {}
+    attributes = {},
   ) {
     this.element = document.createElement(tag);
     this.element.classList.add(...classes);

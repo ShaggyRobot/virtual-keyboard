@@ -2,7 +2,7 @@ import BaseComponent from './base-component';
 
 export default class KeyboardKey extends BaseComponent {
   constructor(keyObj, parent, opts) {
-    super('div', ['keyboard__key'], `${opts.caps ? keyObj.shiftVal : keyObj.val}`, parent);
+    super('div', ['keyboard__key'], `${keyObj.val}`, parent);
 
     this.code = keyObj.code;
 
@@ -32,22 +32,16 @@ export default class KeyboardKey extends BaseComponent {
 
     if (keyObj.code === 'CapsLock') {
       this.element.classList.add('keyboard__key--indicated');
-
-      window.addEventListener('keydown', (e) => {
-        if (e.getModifierState('CapsLock')) {
-          this.element.classList.add('indicate');
-        } else {
-          this.element.classList.remove('indicate');
-        }
-      });
     }
 
     this.element.addEventListener('mousedown', () => {
       this.element.classList.add('pressed');
     });
 
-    this.element.addEventListener('mouseup', () => {
-      this.element.classList.remove('pressed');
+    ['mouseup', 'mouseleave'].forEach((event) => {
+      this.element.addEventListener(event, () => {
+        this.element.classList.remove('pressed');
+      });
     });
 
     window.addEventListener('keydown', (e) => {
@@ -67,12 +61,4 @@ export default class KeyboardKey extends BaseComponent {
   remove() {
     this.element.remove();
   }
-
-  // keyHandler(e) {
-  //   e.preventDefault();
-  //   if (e.code === this.code) {
-  //     this.element.classList.add('pressed');
-  //     this.element.click();
-  //   }
-  // }
 }

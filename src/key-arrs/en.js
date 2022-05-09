@@ -2,321 +2,321 @@ export default [
   {
     code: 'Backquote',
     val: '`',
-    shiftVal: '~'
+    shiftVal: '~',
   },
   {
     code: 'Digit1',
     val: '1',
-    shiftVal: '!'
+    shiftVal: '!',
   },
   {
     code: 'Digit2',
     val: '2',
-    shiftVal: '@'
+    shiftVal: '@',
   },
   {
     code: 'Digit3',
     val: '3',
-    shiftVal: '#'
+    shiftVal: '#',
   },
   {
     code: 'Digit4',
     val: '4',
-    shiftVal: '$'
+    shiftVal: '$',
   },
   {
     code: 'Digit5',
     val: '5',
-    shiftVal: '%'
+    shiftVal: '%',
   },
   {
     code: 'Digit6',
     val: '6',
-    shiftVal: '^'
+    shiftVal: '^',
   },
   {
     code: 'Digit7',
     val: '7',
-    shiftVal: '&'
+    shiftVal: '&',
   },
   {
     code: 'Digit8',
     val: '8',
-    shiftVal: '*'
+    shiftVal: '*',
   },
   {
     code: 'Digit9',
     val: '9',
-    shiftVal: '('
+    shiftVal: '(',
   },
   {
     code: 'Digit0',
     val: '0',
-    shiftVal: ')'
+    shiftVal: ')',
   },
   {
     code: 'Minus',
     val: '-',
-    shiftVal: '_'
+    shiftVal: '_',
   },
   {
     code: 'Equal',
     val: '=',
-    shiftVal: '+'
+    shiftVal: '+',
   },
   {
     code: 'Backspace',
     val: 'Backspace',
-    shiftVal: null
+    shiftVal: null,
   },
   {
     code: 'Tab',
     val: 'Tab',
-    shiftVal: null
+    shiftVal: null,
   },
   {
     code: 'KeyQ',
     val: 'q',
-    shiftVal: 'Q'
+    shiftVal: 'Q',
   },
   {
     code: 'KeyW',
     val: 'w',
-    shiftVal: 'W'
+    shiftVal: 'W',
   },
   {
     code: 'KeyE',
     val: 'e',
-    shiftVal: 'E'
+    shiftVal: 'E',
   },
   {
     code: 'KeyR',
     val: 'r',
-    shiftVal: 'R'
+    shiftVal: 'R',
   },
   {
     code: 'KeyT',
     val: 't',
-    shiftVal: 'T'
+    shiftVal: 'T',
   },
   {
     code: 'KeyY',
     val: 'y',
-    shiftVal: 'Y'
+    shiftVal: 'Y',
   },
   {
     code: 'KeyU',
     val: 'u',
-    shiftVal: 'U'
+    shiftVal: 'U',
   },
   {
     code: 'KeyI',
     val: 'i',
-    shiftVal: 'I'
+    shiftVal: 'I',
   },
   {
     code: 'KeyO',
     val: 'o',
-    shiftVal: 'O'
+    shiftVal: 'O',
   },
   {
     code: 'KeyP',
     val: 'p',
-    shiftVal: 'P'
+    shiftVal: 'P',
   },
   {
     code: 'BracketLeft',
     val: '[',
-    shiftVal: '{'
+    shiftVal: '{',
   },
   {
     code: 'BracketRight',
     val: ']',
-    shiftVal: '}'
+    shiftVal: '}',
   },
   {
     code: 'Backslash',
     val: '\\',
-    shiftVal: '|'
+    shiftVal: '|',
   },
   {
     code: 'Delete',
     val: 'Del',
-    shiftVal: null
+    shiftVal: null,
   },
   {
     code: 'CapsLock',
     val: 'CapsLk',
-    shiftVal: null
+    shiftVal: null,
   },
   {
     code: 'KeyA',
     val: 'a',
-    shiftVal: 'A'
+    shiftVal: 'A',
   },
   {
     code: 'KeyS',
     val: 's',
-    shiftVal: 'S'
+    shiftVal: 'S',
   },
   {
     code: 'KeyD',
     val: 'd',
-    shiftVal: 'D'
+    shiftVal: 'D',
   },
   {
     code: 'KeyF',
     val: 'f',
-    shiftVal: 'F'
+    shiftVal: 'F',
   },
   {
     code: 'KeyG',
     val: 'g',
-    shiftVal: 'G'
+    shiftVal: 'G',
   },
   {
     code: 'KeyH',
     val: 'h',
-    shiftVal: 'H'
+    shiftVal: 'H',
   },
   {
     code: 'KeyJ',
     val: 'j',
-    shiftVal: 'J'
+    shiftVal: 'J',
   },
   {
     code: 'KeyK',
     val: 'k',
-    shiftVal: 'K'
+    shiftVal: 'K',
   },
   {
     code: 'KeyL',
     val: 'l',
-    shiftVal: 'L'
+    shiftVal: 'L',
   },
   {
     code: 'Semicolon',
     val: ';',
-    shiftVal: ':'
+    shiftVal: ':',
   },
   {
     code: 'Quote',
     val: "'",
-    shiftVal: '"'
+    shiftVal: '"',
   },
   {
     code: 'Enter',
     val: 'Enter',
-    shiftVal: null
+    shiftVal: null,
   },
   {
     code: 'ShiftLeft',
     val: 'Shift',
-    shiftVal: null
+    shiftVal: null,
   },
   {
     code: 'KeyZ',
     val: 'z',
-    shiftVal: 'Z'
+    shiftVal: 'Z',
   },
   {
     code: 'KeyX',
     val: 'x',
-    shiftVal: 'X'
+    shiftVal: 'X',
   },
   {
     code: 'KeyC',
     val: 'c',
-    shiftVal: 'C'
+    shiftVal: 'C',
   },
   {
     code: 'KeyV',
     val: 'v',
-    shiftVal: 'V'
+    shiftVal: 'V',
   },
   {
     code: 'KeyB',
     val: 'b',
-    shiftVal: 'B'
+    shiftVal: 'B',
   },
   {
     code: 'KeyN',
     val: 'n',
-    shiftVal: 'N'
+    shiftVal: 'N',
   },
   {
     code: 'KeyM',
     val: 'm',
-    shiftVal: 'M'
+    shiftVal: 'M',
   },
   {
     code: 'Comma',
     val: ',',
-    shiftVal: '<'
+    shiftVal: '<',
   },
   {
     code: 'Period',
     val: '.',
-    shiftVal: '>'
+    shiftVal: '>',
   },
   {
     code: 'Slash',
     val: '/',
-    shiftVal: '?'
+    shiftVal: '?',
   },
   {
     code: 'ArrowUp',
     val: '&#8593;',
-    shiftVal: null
+    shiftVal: '&#8593;',
   },
   {
     code: 'ShiftRight',
     val: 'Shift',
-    shiftVal: null
+    shiftVal: null,
   },
   {
     code: 'ControlLeft',
     val: 'Ctrl',
-    shiftVal: null
+    shiftVal: null,
   },
   {
     code: 'MetaLeft',
     val: 'Win',
-    shiftVal: null
+    shiftVal: null,
   },
   {
     code: 'AltLeft',
     val: 'Alt',
-    shiftVal: null
+    shiftVal: null,
   },
   {
     code: 'Space',
     val: ' ',
-    shiftVal: ' '
+    shiftVal: ' ',
   },
   {
     code: 'AltRight',
     val: 'Alt',
-    shiftVal: null
+    shiftVal: null,
   },
   {
     code: 'ArrowLeft',
     val: '&#8592;',
-    shiftVal: null
+    shiftVal: null,
   },
   {
     code: 'ArrowDown',
     val: '&#8595;',
-    shiftVal: null
+    shiftVal: '&#8595;',
   },
   {
     code: 'ArrowRight',
     val: '&#8594;',
-    shiftVal: null
+    shiftVal: null,
   },
   {
     code: 'ControlRight',
     val: 'Ctrl',
-    shiftVal: null
+    shiftVal: null,
   },
 ];
